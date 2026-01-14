@@ -16,7 +16,7 @@
 
 ### About me
 
-CSE graduate from Cochin University of Science and Technology (CGPA 8.51). I like shipping React/TypeScript apps and AI-integrated tools — from Gemini-powered backends to analytics dashboards. Based in Kochi, open to Bangalore.
+CSE graduate from Cochin University of Science and Technology (CGPA 8.51). I like shipping React/TypeScript apps and AI-integrated tools, from Gemini-powered backends to analytics dashboards. Based in Kochi, open to Bangalore.
 
 ---
 
@@ -63,15 +63,17 @@ CSE graduate from Cochin University of Science and Technology (CGPA 8.51). I lik
 
 ### Highlights
 
-- Great Bengaluru Hackathon — **Top 50 / 1500+ teams** (top 3.3%)
-- PMSS Scholarship — 50% tuition reimbursement on academic merit
+- Great Bengaluru Hackathon: **Top 50 / 1500+ teams** (top 3.3%)
+- PMSS Scholarship: 50% tuition reimbursement on academic merit
 - Outreach @ SEDS CUSAT · Member @ ACES CUSAT
 
 ---
 
+### Activity
+
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Krishnanand-G/Krishnanand-G/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Krishnanand-G&theme=tokyo-night&hide_border=true&area=true&height=300" alt="Contribution activity graph" />
 
 </div>
 
