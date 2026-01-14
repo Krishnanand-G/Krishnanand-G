@@ -75,6 +75,22 @@ Between freelance client work and internships, I have gotten used to production 
 
 ---
 
+### Projects
+
+**[AgreementStream](https://github.com/Krishnanand-G/AgreementStream)** — Distributed event platform  
+`Java` · `Spring Boot` · `GCP Pub/Sub` · `Azure Event Hubs` · `Docker`  
+Event router with idempotent handlers, DLQ retry, swappable messaging backends, Prometheus metrics.
+
+**[TerraVault](https://github.com/Krishnanand-G/TerraVault)** — IaC data platform  
+`Terraform` · `Azure Blob` · `GCS` · `GitHub Actions`  
+Storage modules with versioning, lifecycle tiers, CMK; multi-env CI plan and scheduled drift checks.
+
+**[DocIndex](https://github.com/Krishnanand-G/DocIndex)** — Document metadata microservice  
+`C#` · `.NET 8` · `PostgreSQL` · `xUnit`  
+Paginated REST API for agreement/envelope metadata with optimistic locking and health probes.
+
+---
+
 ### GitHub stats
 
 <div align="center">
