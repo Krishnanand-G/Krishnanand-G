@@ -69,11 +69,34 @@ CSE graduate from Cochin University of Science and Technology (CGPA 8.51). I lik
 
 ---
 
-### Activity
+### $ cat about.sh
+
+```text
+┌─ krishnanand@kochi ─────────────────────────────────────┐
+│                                                        │
+│   KRISHNANAND G                                        │
+│   cse grad @ cusat · cgpa 8.51                         │
+│                                                        │
+│   $ whoami                                             │
+│   > react/ts builder · ai tinkerer · kochi → blr       │
+│                                                        │
+│   $ ls ./currently                                     │
+│   > fintech uis · gemini backends · data dashboards    │
+│                                                        │
+│   $ ./wins.sh --recent                                 │
+│   > bengaluru hackathon · top 50 / 1500+ teams        │
+│   > pmss merit scholarship                             │
+│                                                        │
+└────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Krishnanand-G&theme=tokyo-night&hide_border=true&area=true&height=300" alt="Contribution activity graph" />
+<img src="https://skillicons.dev/icons?i=react,ts,js,py,nodejs,express,postgres,tailwind,java,git&perline=10" alt="Tech icons" />
+
+<br /><br />
+
+<img src="https://github-profile-trophy.vercel.app/?username=Krishnanand-G&theme=discord&no-frame=true&column=4&margin-w=15&margin-h=15" alt="GitHub trophies" />
 
 </div>
 
