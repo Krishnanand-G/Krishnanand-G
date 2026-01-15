@@ -236,6 +236,14 @@ if __name__ == "__main__":
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v={version}">
   <img alt="Krishnanand G's GitHub profile" src="dark_mode.svg?v={version}">
 </picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="cats.svg?v={version}">
+  <source media="(prefers-color-scheme: light)" srcset="cats.svg?v={version}">
+  <img alt="Cat Animations" src="cats.svg?v={version}">
+</picture>
 """
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
