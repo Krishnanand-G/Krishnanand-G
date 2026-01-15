@@ -229,3 +229,14 @@ if __name__ == "__main__":
         with open(f"{mode}_mode.svg", "w", encoding="utf-8") as f:
             f.write(render(mode, stats))
     print("wrote dark_mode.svg, light_mode.svg")
+
+    version = int(datetime.now(timezone.utc).timestamp())
+    readme_content = f"""<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v={version}">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v={version}">
+  <img alt="Krishnanand G's GitHub profile" src="dark_mode.svg?v={version}">
+</picture>
+"""
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(readme_content)
+    print("updated README.md with cache buster")
