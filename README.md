@@ -1,13 +1,13 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1785138698">
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=1785138698">
-  <img alt="Krishnanand G's GitHub profile" src="dark_mode.svg?v=1785138698">
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=1785220834">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg?v=1785220834">
+  <img alt="Krishnanand G's GitHub profile" src="dark_mode.svg?v=1785220834">
 </picture>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="cats.svg?v=1785138698">
-  <source media="(prefers-color-scheme: light)" srcset="cats.svg?v=1785138698">
-  <img alt="Cat Animations" src="cats.svg?v=1785138698">
+  <source media="(prefers-color-scheme: dark)" srcset="cats.svg?v=1785220834">
+  <source media="(prefers-color-scheme: light)" srcset="cats.svg?v=1785220834">
+  <img alt="Cat Animations" src="cats.svg?v=1785220834">
 </picture>
