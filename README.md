@@ -75,22 +75,6 @@ Between freelance client work and internships, I have gotten used to production 
 
 ---
 
-### Projects
-
-**AgreementStream** — Distributed Event Platform  
-`Java` · `Spring Boot` · `GCP Pub/Sub` · `Azure Event Hubs` · `Docker`  
-Event router handling 100K+ messages/day with dead-letter queues, swappable backends, p99 under 200ms, Prometheus metrics.
-
-**TerraVault** — IaC Data Platform  
-`Terraform` · `Azure Blob` · `GCS` · `GitHub Actions`  
-Storage modules with versioning, lifecycle tiers, CMK; env setup dropped from 2 days to ~45 minutes.
-
-**DocIndex** — Document Metadata Microservice  
-`C#` · `.NET Core` · `PostgreSQL` · `xUnit`  
-1M+ row metadata store, paginated REST with optimistic locking, 90%+ test coverage, 2K req/s load tests.
-
----
-
 ### GitHub stats
 
 <div align="center">
