@@ -66,10 +66,10 @@ Between freelance client work and internships, I have gotten used to production 
 <details>
 <summary><b>Highlights</b></summary>
 
-- **Nippon Toyota** — Python/shell automation (~40% manual work reduction); GitHub Actions CI with ~85% test coverage; runbooks & on-call shadowing
-- **IMMCO** — Node.js/Express APIs, PostgreSQL pooling, file upload with pre-signed URLs, Dockerized staging deploys
-- **Freelance** — Two production SaaS products on AWS/GCP; 15+ deploys/week; multi-tenant PostgreSQL; 99.5%+ uptime
-- **CloudForge** — Java in Docker, Terraform modules, GCP Pub/Sub consumers
+- **Nippon Toyota**: Python/shell automation (~40% less manual work); GitHub Actions CI with ~85% test coverage; runbooks and on-call shadowing
+- **IMMCO**: Node.js/Express APIs, PostgreSQL pooling, file upload with pre-signed URLs, Dockerized staging deploys
+- **Freelance**: Two production SaaS products on AWS/GCP; 15+ deploys/week; multi-tenant PostgreSQL; 99.5%+ uptime
+- **CloudForge**: Java in Docker, Terraform modules, GCP Pub/Sub consumers
 
 </details>
 
@@ -77,17 +77,17 @@ Between freelance client work and internships, I have gotten used to production 
 
 ### Projects
 
-**[AgreementStream](https://github.com/Krishnanand-G/AgreementStream)** — Distributed event platform  
+**[AgreementStream](https://github.com/Krishnanand-G/AgreementStream)**: event router for agreement lifecycle  
 `Java` · `Spring Boot` · `GCP Pub/Sub` · `Azure Event Hubs` · `Docker`  
-Event router with idempotent handlers, DLQ retry, swappable messaging backends, Prometheus metrics.
+Idempotent handlers, DLQ on retry failure, mock/GCP/Azure backends, Prometheus metrics.
 
-**[TerraVault](https://github.com/Krishnanand-G/TerraVault)** — IaC data platform  
+**[TerraVault](https://github.com/Krishnanand-G/TerraVault)**: Terraform storage for Azure and GCS  
 `Terraform` · `Azure Blob` · `GCS` · `GitHub Actions`  
-Storage modules with versioning, lifecycle tiers, CMK; multi-env CI plan and scheduled drift checks.
+Versioning, lifecycle rules, CMK in prod. CI validates every env; nightly drift check.
 
-**[DocIndex](https://github.com/Krishnanand-G/DocIndex)** — Document metadata microservice  
+**[DocIndex](https://github.com/Krishnanand-G/DocIndex)**: agreement metadata API  
 `C#` · `.NET 8` · `PostgreSQL` · `xUnit`  
-Paginated REST API for agreement/envelope metadata with optimistic locking and health probes.
+Paginated reads, optimistic locking on writes, k8s health probes.
 
 ---
 
@@ -105,10 +105,10 @@ Paginated REST API for agreement/envelope metadata with optimistic locking and h
 
 ### Highlights
 
-- **ACES CUSAT Annual Hackathon 2025** — 1st Place (Cloud Infrastructure & DevOps)
-- **SEDS CUSAT InnoFest 2024** — Winner (Distributed Systems & Scalability)
-- **Kochi DevOps Sprint 2024** — Runner-up (IaC & CI/CD)
-- **PMSS Scholarship** — 50% tuition reimbursement on academic merit (2022–2026)
+- **ACES CUSAT Annual Hackathon 2025**: 1st place (Cloud Infrastructure & DevOps)
+- **SEDS CUSAT InnoFest 2024**: winner (Distributed Systems & Scalability)
+- **Kochi DevOps Sprint 2024**: runner-up (IaC & CI/CD)
+- **PMSS Scholarship**: 50% tuition reimbursement on academic merit (2022–2026)
 - Outreach @ **SEDS CUSAT** · Member @ **ACES CUSAT**
 
 ---
