@@ -6,8 +6,3 @@
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="cats.svg?v=1784115008">
-  <source media="(prefers-color-scheme: light)" srcset="cats.svg?v=1784115008">
-  <img alt="Cat Animations" src="cats.svg?v=1784115008">
-</picture>
