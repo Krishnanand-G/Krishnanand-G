@@ -184,7 +184,7 @@ def info_lines(s):
         kv("Kernel", "Backend & Cloud Engineer"),
         kv("IDE", "Zed, VS Code"),
         [],
-        kv("Languages.Programming", "C++, C, Python, Golang, Bash, JavaScript, Java, SQL"),
+        kv("Languages.Programming", "C, C++, Python, Golang, Bash, JavaScript, Java, SQL"),
         kv("Languages.Real", "English, Malayalam, Hindi"),
         kv("Hobbies", "Coding, Open Source"),
         kv("Open Source", f"Contributed to {s['contributed']} repos"),
