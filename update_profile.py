@@ -167,6 +167,29 @@ def kv2(k1, v1, k2, v2):
     return left + [(" | ", "d")] + kv(k2, v2, 23)
 
 
+def kv_wrap(key, items, width=W):
+    """Like kv(), but wraps a comma-separated list onto extra indented
+    lines instead of overflowing the column when it's too long to fit."""
+    indent = " " * (len(key) + 2)
+    rows, cur = [], []
+    for item in items:
+        trial = ", ".join(cur + [item])
+        if cur and len(indent) + len(trial) + 1 > width:
+            rows.append(cur)
+            cur = [item]
+        else:
+            cur.append(item)
+    if cur:
+        rows.append(cur)
+
+    lines = [kv(key, ", ".join(rows[0]) + ("," if len(rows) > 1 else ""), width)]
+    for row in rows[1:]:
+        is_last = row is rows[-1]
+        val = ", ".join(row) + ("" if is_last else ",")
+        lines.append([(indent, "d"), (val, "v")])
+    return lines
+
+
 def rule(title=""):
     label = f"─ {title} " if title else ""
     return [(label, "h"), ("─" * (W - len(label)), "d")]
@@ -175,7 +198,7 @@ def rule(title=""):
 def info_lines(s):
     y, m, d = age(BIRTHDAY, date.today())
     n = lambda x: f"{x:,}"
-    return [
+    lines = [
         [(f"{USER.lower()}@github ", "h"), ("─" * (W - len(USER) - 8), "d")],
         [],
         kv("OS", "Windows, Linux"),
@@ -184,7 +207,10 @@ def info_lines(s):
         kv("Kernel", "Backend & Cloud Engineer"),
         kv("IDE", "Zed, VS Code"),
         [],
-        kv("Languages.Programming", "C, C++, Python, Golang, Bash, JavaScript, Java, SQL"),
+    ]
+    lines += kv_wrap("Languages.Programming",
+                      ["C", "C++", "Python", "Golang", "Bash", "JavaScript", "Java", "SQL"])
+    lines += [
         kv("Languages.Real", "English, Malayalam, Hindi"),
         kv("Hobbies", "Coding, Open Source"),
         kv("Open Source", f"Contributed to {s['contributed']} repos"),
@@ -199,6 +225,7 @@ def info_lines(s):
         [("Lines of Code: ", "k"), (n(s["loc"]), "v"), (" ( ", "d"),
          (n(s["loc_add"]) + "++", "g"), (", ", "d"), (n(s["loc_del"]) + "--", "r"), (" )", "d")],
     ]
+    return lines
 
 
 def render(mode, stats):
