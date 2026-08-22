@@ -22,6 +22,18 @@ pose_3 = [
     r"            / \ / \ "
 ]
 
+# Poses above are drawn facing left (tail trails to the right). The frames
+# below shift the cat rightward over time, so mirror each pose horizontally
+# (reverse the line and swap slash direction) to make it face the direction
+# it's walking instead of appearing to walk backward.
+def _mirror(lines):
+    table = str.maketrans("/\\", "\\/")
+    return [line[::-1].translate(table) for line in lines]
+
+pose_1 = _mirror(pose_1)
+pose_2 = _mirror(pose_2)
+pose_3 = _mirror(pose_3)
+
 # We will generate 18 frames of the cat walking across the page
 # Shifting right by 4 characters in each frame
 num_frames = 18
