@@ -176,112 +176,115 @@
   .frame-17 { animation: play-17 2.0s infinite; }
 </style>
   <rect class="box" x="0.5" y="0.5" width="979" height="119"/>
+  <defs><clipPath id="walkClip"><rect x="0.5" y="0.5" width="979" height="119" rx="8"/></clipPath></defs>
+  <g clip-path="url(#walkClip)">
   <g class="frame-0">
-    <text class="ascii" x="25" y="35" xml:space="preserve">  ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">_/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">_/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve"> \ / \ /            </text>
+    <text class="ascii" x="-176.4" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="-176.4" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="-176.4" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="-176.4" y="83" xml:space="preserve"> \ / \ /            </text>
   </g>
   <g class="frame-1">
-    <text class="ascii" x="25" y="35" xml:space="preserve">      ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">    _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">    _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">     | | | |            </text>
+    <text class="ascii" x="-98.0" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="-98.0" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="-98.0" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="-98.0" y="83" xml:space="preserve"> | | | |            </text>
   </g>
   <g class="frame-2">
-    <text class="ascii" x="25" y="35" xml:space="preserve">          ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">        _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">        _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">         / \ / \            </text>
+    <text class="ascii" x="-19.6" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="-19.6" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="-19.6" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="-19.6" y="83" xml:space="preserve"> / \ / \            </text>
   </g>
   <g class="frame-3">
-    <text class="ascii" x="25" y="35" xml:space="preserve">              ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">            _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">            _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">             | | | |            </text>
+    <text class="ascii" x="58.8" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="58.8" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="58.8" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="58.8" y="83" xml:space="preserve"> | | | |            </text>
   </g>
   <g class="frame-4">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                  ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                 \ / \ /            </text>
+    <text class="ascii" x="137.2" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="137.2" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="137.2" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="137.2" y="83" xml:space="preserve"> \ / \ /            </text>
   </g>
   <g class="frame-5">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                      ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                    _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                    _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                     | | | |            </text>
+    <text class="ascii" x="215.6" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="215.6" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="215.6" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="215.6" y="83" xml:space="preserve"> | | | |            </text>
   </g>
   <g class="frame-6">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                          ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                        _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                        _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                         / \ / \            </text>
+    <text class="ascii" x="294.0" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="294.0" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="294.0" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="294.0" y="83" xml:space="preserve"> / \ / \            </text>
   </g>
   <g class="frame-7">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                              ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                            _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                            _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                             | | | |            </text>
+    <text class="ascii" x="372.4" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="372.4" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="372.4" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="372.4" y="83" xml:space="preserve"> | | | |            </text>
   </g>
   <g class="frame-8">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                  ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                 \ / \ /            </text>
+    <text class="ascii" x="450.8" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="450.8" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="450.8" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="450.8" y="83" xml:space="preserve"> \ / \ /            </text>
   </g>
   <g class="frame-9">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                      ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                    _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                    _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                     | | | |            </text>
+    <text class="ascii" x="529.2" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="529.2" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="529.2" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="529.2" y="83" xml:space="preserve"> | | | |            </text>
   </g>
   <g class="frame-10">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                          ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                        _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                        _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                         / \ / \            </text>
+    <text class="ascii" x="607.6" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="607.6" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="607.6" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="607.6" y="83" xml:space="preserve"> / \ / \            </text>
   </g>
   <g class="frame-11">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                              ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                            _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                            _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                             | | | |            </text>
+    <text class="ascii" x="686.0" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="686.0" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="686.0" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="686.0" y="83" xml:space="preserve"> | | | |            </text>
   </g>
   <g class="frame-12">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                                  ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                                _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                                _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                                 \ / \ /            </text>
+    <text class="ascii" x="764.4" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="764.4" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="764.4" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="764.4" y="83" xml:space="preserve"> \ / \ /            </text>
   </g>
   <g class="frame-13">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                                      ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                                    _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                                    _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                                     | | | |            </text>
+    <text class="ascii" x="842.8" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="842.8" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="842.8" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="842.8" y="83" xml:space="preserve"> | | | |            </text>
   </g>
   <g class="frame-14">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                                          ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                                        _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                                        _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                                         / \ / \            </text>
+    <text class="ascii" x="921.2" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="921.2" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="921.2" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="921.2" y="83" xml:space="preserve"> / \ / \            </text>
   </g>
   <g class="frame-15">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                                              ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                                            _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                                            _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                                             | | | |            </text>
+    <text class="ascii" x="999.6" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="999.6" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="999.6" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="999.6" y="83" xml:space="preserve"> | | | |            </text>
   </g>
   <g class="frame-16">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                                                  ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                                                _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                                                _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                                                 \ / \ /            </text>
+    <text class="ascii" x="1078.0" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="1078.0" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="1078.0" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="1078.0" y="83" xml:space="preserve"> \ / \ /            </text>
   </g>
   <g class="frame-17">
-    <text class="ascii" x="25" y="35" xml:space="preserve">                                                                      ___/\_/\          </text>
-    <text class="ascii" x="25" y="51" xml:space="preserve">                                                                    _/__= o_o =         </text>
-    <text class="ascii" x="25" y="67" xml:space="preserve">                                                                    _/   _   /           </text>
-    <text class="ascii" x="25" y="83" xml:space="preserve">                                                                     | | | |            </text>
+    <text class="ascii" x="1156.4" y="35" xml:space="preserve">  ___/\_/\          </text>
+    <text class="ascii" x="1156.4" y="51" xml:space="preserve">_/__= o_o =         </text>
+    <text class="ascii" x="1156.4" y="67" xml:space="preserve">_/   _   /           </text>
+    <text class="ascii" x="1156.4" y="83" xml:space="preserve"> | | | |            </text>
+  </g>
   </g>
 </svg>

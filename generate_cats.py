@@ -35,9 +35,16 @@ pose_2 = _mirror(pose_2)
 pose_3 = _mirror(pose_3)
 
 # We will generate 18 frames of the cat walking across the page
-# Shifting right by 4 characters in each frame
 num_frames = 18
-shift_step = 4
+canvas_width = 980
+
+# Approx monospace glyph width at 14px bold, and the widest pose line, so we
+# can compute a pixel offset (not a whole-character shift) that starts the
+# cat fully off-canvas on the left and ends it fully off-canvas on the right.
+char_width_px = 8.4
+pose_width_px = max(len(line) for p in (pose_1, pose_2, pose_3) for line in p) * char_width_px
+start_x = -pose_width_px
+end_x = canvas_width + pose_width_px
 
 out = [
     '<svg xmlns="http://www.w3.org/2000/svg" width="980" height="120" viewBox="0 0 980 120">',
@@ -83,10 +90,15 @@ out.append('</style>')
 # Outer container box
 out.append('  <rect class="box" x="0.5" y="0.5" width="979" height="119"/>')
 
+# Clip the walking frames to the box so the cat is hidden while off-canvas
+# instead of spilling past the rounded corners.
+out.append('  <defs><clipPath id="walkClip"><rect x="0.5" y="0.5" width="979" height="119" rx="8"/></clipPath></defs>')
+out.append('  <g clip-path="url(#walkClip)">')
+
 # Render each frame
 for i in range(num_frames):
-    shift_spaces = " " * (i * shift_step)
-    
+    frame_x = start_x + i * (end_x - start_x) / (num_frames - 1)
+
     # Cycle poses: 1 -> 2 -> 3 -> 2 -> 1 ...
     cycle_idx = i % 4
     if cycle_idx == 0:
@@ -95,14 +107,14 @@ for i in range(num_frames):
         pose = pose_2
     else:
         pose = pose_3
-        
+
     out.append(f'  <g class="frame-{i}">')
     for l_idx, line in enumerate(pose):
-        shifted_line = shift_spaces + line
         ly = 35 + l_idx * 16
-        out.append(f'    <text class="ascii" x="25" y="{ly}" xml:space="preserve">{html.escape(shifted_line)}</text>')
+        out.append(f'    <text class="ascii" x="{frame_x:.1f}" y="{ly}" xml:space="preserve">{html.escape(line)}</text>')
     out.append('  </g>')
 
+out.append('  </g>')
 out.append('</svg>')
 
 with open("cats.svg", "w", encoding="utf-8") as f:
